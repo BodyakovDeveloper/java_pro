@@ -1,0 +1,25 @@
+USERENTITY:
+  - ID: 1
+    LOGIN: 'User1'
+    PASSWORD: '123451'
+    EMAIL: "email3@gmail.com"
+    FIRSTNAME: "FirstFirstName"
+    LASTNAME: "LastName"
+    BIRTHDAY: '2015-01-01'
+    ROLE_ID: 1
+  - ID: 2
+    LOGIN: 'Moderator'
+    PASSWORD: '1234'
+    EMAIL: 'email2@gmail.com'
+    FIRSTNAME: 'FirstName2'
+    LASTNAME: 'LastName2'
+    BIRTHDAY: '2015-01-01'
+    ROLE_ID: 2
+  - ID: 3
+    LOGIN: 'User'
+    PASSWORD: '12345'
+    EMAIL: 'email3@gmail.com'
+    FIRSTNAME: 'FirstName3'
+    LASTNAME: 'LastName3'
+    BIRTHDAY: '2015-01-01'
+    ROLE_ID: 2

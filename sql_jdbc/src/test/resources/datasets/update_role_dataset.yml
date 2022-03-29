@@ -1,0 +1,7 @@
+ROLE:
+  - ID: 1
+    NAME: "Admin1"
+  - ID: 2
+    NAME: "ModeratorUpdated"
+  - ID: 3
+    NAME: "User123"

@@ -1,0 +1,9 @@
+drop table if exists USERENTITY;
+drop table if exists ROLEENTITY;
+
+
+CREATE TABLE IF NOT EXISTS ROLEENTITY
+  (
+  id IDENTITY,
+  name VARCHAR(256) NOT NULL UNIQUE
+  );

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+    <tuser ID="1" LOGIN="Admin" PASSWORD="123" EMAIL="email1@gmail.com" FIRSTNAME="FirstName1" LASTNAME="LastName1" BIRTHDAY="2015-01-01" ROLEID="1"/>
+    <tuser ID="2" LOGIN="Moderator" PASSWORD="1234" EMAIL="email2@gmail.com" FIRSTNAME="FirstName2" LASTNAME="LastName2" BIRTHDAY="2015-01-01" ROLEID="2"/>
+    <tuser ID="3" LOGIN="User" PASSWORD="12345" EMAIL="email3@gmail.com" FIRSTNAME="FirstName3" LASTNAME="LastName3" BIRTHDAY="2015-01-01" ROLEID="2"/>
+</dataset>

@@ -1,0 +1,7 @@
+ROLEENTITY:
+  - ID: 1
+    NAME: 'Test'
+  - ID: 2
+    NAME: 'ModeratorUpdated'
+  - ID: 3
+    NAME: 'User'
