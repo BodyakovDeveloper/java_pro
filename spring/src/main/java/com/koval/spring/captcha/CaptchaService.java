@@ -21,9 +21,6 @@ public class CaptchaService implements ICaptchaService {
     public Boolean processResponse(String response) {
         String secretKey = environment.getProperty(ConstantClass.RECAPTCHA_KEY_SECRET);
 
-        System.out.println("secretKey" + secretKey);
-        System.out.println("response" + response);
-
         URI verifyUri = URI.create(String.format(ConstantClass.CAPTCHA_URL, environment.getProperty(ConstantClass.RECAPTCHA_KEY_SECRET), response));
         GoogleResponse googleResponse = restTemplate.getForObject(verifyUri, GoogleResponse.class);
 
