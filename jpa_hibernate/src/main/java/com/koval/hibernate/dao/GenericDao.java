@@ -11,7 +11,7 @@ import java.util.function.Function;
 
 public class GenericDao {
 
-    static final Logger logger = LogManager.getLogger(HibernateUserDao.class);
+    static final Logger logger = LogManager.getLogger(GenericDao.class);
 
     public void genericOperation(Consumer<Session> consumer) {
 
